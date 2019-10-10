@@ -1,0 +1,15 @@
+## 路由表说明
+- Home     首页
+- Manage   数据管理
+    - user          用户列表
+    - merchant      商家列表
+    - food          食品列表
+    - order_form    订单列表
+    - Administrator 管理员列表
+- Adddata  添加数据
+    - store         添加商铺
+    - commodity     添加商品
+- chart    图表
+- compile  编辑
+- Setting  设置
+- Explain  说明
