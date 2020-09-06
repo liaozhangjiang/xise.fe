@@ -5,6 +5,7 @@ import iView from 'iview';
 import 'iview/dist/styles/iview.css';
 import router from 'router'
 import echarts from 'echarts'
+import 'utils/filter'
 
 Vue.prototype.$echarts = echarts
 Vue.use(VueRouter);

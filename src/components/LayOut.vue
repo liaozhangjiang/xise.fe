@@ -73,7 +73,7 @@
         <Layout :style="{marginLeft: '200px'}">
             <Header :style="{background: '#eff2f7', boxShadow: '0 2px 3px 2px rgba(0,0,0,.1)'}">
                 <Breadcrumb >
-                    <BreadcrumbItem>Home</BreadcrumbItem>
+                    <BreadcrumbItem to="/">首页</BreadcrumbItem>
                     <BreadcrumbItem>Components</BreadcrumbItem>
                     <BreadcrumbItem>Layout</BreadcrumbItem>
                 </Breadcrumb>
