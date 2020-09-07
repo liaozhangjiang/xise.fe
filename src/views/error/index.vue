@@ -1,7 +1,7 @@
 <template>
     <div class="error-box">
         <div>
-            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571234292&di=43f5859571fa2206e987f42d1a53f44e&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.juimg.com%2Ftuku%2Fyulantu%2F140402%2F330548-1404021G31013.jpg" alt="">
+            <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3748640012,975017494&fm=26&gp=0.jpg" alt="">
         </div>
     </div>
 </template>
@@ -16,5 +16,5 @@
         background white 
         text-align center
         img 
-            height 100vh
+            width 100vw
 </style>
