@@ -62,7 +62,7 @@
                                             let _this = this
                                             $.ajax({
                                                 type: "DELETE",
-                                                url: "http://localhost:3000/store",
+                                                url: API.store,
                                                 data:{store_name:params.row.store_name},
                                                 success: function (result) {
                                                     if(!result.status){
@@ -114,7 +114,7 @@
             var _this=this
             $.ajax({
                 type: "GET",
-                url: "http://localhost:3000/store",
+                url: API.store,
                 dataType: "JSON",
                 success: function (result) {
                     console.log(result)

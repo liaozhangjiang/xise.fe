@@ -86,6 +86,7 @@
     </div>
 </template>
 <script>
+    import API from '../../api'
     export default {
         data () {
             const verify = (rule, value, callback) => {
@@ -227,7 +228,7 @@
                 }
                 form.append('store_switch',store_switch.join(','))
                 $.ajax({
-                    url: 'http://localhost:3000/store',
+                    url: API.store,
                     type: 'POST',
                     cache: false, //不必须
                     data: form,

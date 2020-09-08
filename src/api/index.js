@@ -1,6 +1,10 @@
-const BACK_END_URL = 'http://121.199.79.111'
+//线上
+const BACK_END_URL = 'http://106.12.108.69'
+//本地
+// const BACK_END_URL = 'http://localhost'
 
 
 const API = {
-    user_info: `${BACK_END_URL}:8093/user/userinfo`,
+    store: `${BACK_END_URL}:3000/store`,
 }
+export default API
